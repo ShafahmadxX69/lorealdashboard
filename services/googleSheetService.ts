@@ -1,7 +1,7 @@
 
 import { DashboardData, InvoiceMetadata, ProductionLineItem } from '../types';
 
-const SHEET_URL = 'https://docs.google.com/spreadsheets/d/1XoV7020NTZk1kzqn3F2ks3gOVFJ5arr5NVgUdewWPNQ/export?format=csv&gid=1100244896';
+const SHEET_URL = 'https://docs.google.com/spreadsheets/u/0/d/1-amnAYKkoKKXtZ3rzirg0K9gnD6lUFOqV2hqFf5iPEQ/htmlview#gid=552593670';
 
 function parseCSV(csvText: string): string[][] {
   const rows = [];
